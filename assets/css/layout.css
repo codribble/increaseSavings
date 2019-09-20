@@ -1,0 +1,17 @@
+@charset 'utf-8';
+*, :before, :after { margin:0; padding:0; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
+
+body { font-family:'Montserrat', '맑은고딕', 'dotum', 'Apple Gothic', sans-serif; font-weight:400; }
+a { color:white; text-decoration:none; }
+
+.contents { display:block; position:relative; width:100%; max-width:768px; margin:0 auto; }
+
+.stack-table { margin-bottom:50px; }
+.stack-table .result { width:100%; border-collapse:collapse; border-spacing:0; }
+.stack-table .result caption { padding:10px 0; font-size:20px; }
+.stack-table .result th { padding:3px 5px; font-weight:400; text-align:center; }
+.stack-table .result td { width:40%; padding:3px 5px; font-weight:400; text-align:center; }
+.stack-table .result thead th { padding:5px; background:black; color:#fff; }
+.stack-table .result tbody tr:nth-child(4n) { border-bottom:1px solid #fff; }
+.stack-table .result tfoot th, .stack-table .result tfoot td { padding:5px; background:black; border-top:1px solid #fff; color:#fff; }
+.stack-table .result .month { border-top:1px solid #000; border-bottom:1px solid #000; }
